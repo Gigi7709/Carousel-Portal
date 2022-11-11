@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- navbar beginning -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Book Now</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">North America</a></li>
+                  <li><a class="dropdown-item" href="#">South America</a></li>
+                  <li><a class="dropdown-item">Europe</a></li>
+                  <li><a class="dropdown-item" href="#">Asia</a></li>
+                  <li><a class="dropdown-item">Africa</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Travel Confirmation</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+     
+      <!-- carousel begins -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2971&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dubai, United Arab Emirates</h5>
+              <p>Looking for an Urban Adventure? Enjoy the Ultramodern Architecture, Nightlife, and Culture of this beautiful city. <a class="link" href="#">Learn More</a> </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Ao Nang, Thailand</h5>
+              <p>Relax on the Beach or in one of the amazing Oceanside Resorts. Take a trip out on a boat, or go diving. <a class="link" href="#">Learn More</a> </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80" class="d-block w-100" alt="Sierra Nevada">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sierra Nevada, United Stated of America</h5>
+              <p>Take time to explore all of nature's wonder. From the Majestic Mountains, to Lakes and Plains. Take an Epic Adventure, or just enjoy the Scenery. <a class="link" href="#">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel ends -->
+        <!-- Card begins -->
+    <div id="card">
+      <div class="card text-center">
+        <div class="card-header">
+          New Travel Destination!
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Alaska Train and Cruise</h5>
+          <p class="card-text">Enjoy a 10 day trip in Alaska! <br>Start your journey on a Princes Cruise to Alaska where you will then board one of Alaska's famous train travel expeditions. </p>
+          <a href="#" class="btn btn-primary">Discover Alaska</a>
+        </div>
+        <div class="card-footer text-muted">
+          2 days ago
+        </div>
+      </div>
+    
+<!-- card ends -->
+
+<!-- Card begins -->
+<div id="card">
+<div class="card text-center">
+  <div class="card-header">
+    Travel Deals!
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">3 Month Europe Tour, 30% off</h5>
+    <p class="card-text">Travel to Europe on an all inclusive, 3 month trip, brought to you exclusively from Travel. Enjoy the top travel destination spots, finest cuisine, and culture!<br>Hurry, this deal will only last till 12-01-2022. Don't miss your chance to join us on an amazing European Adventure!</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+  <div class="card-footer text-muted">
+    5 days ago
+  </div>
+</div>
+<!-- card ends -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</body>
+</html>
